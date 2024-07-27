@@ -1,0 +1,36 @@
+.left-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.left-nav li {
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
+}
+
+.left-nav li :visited {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+}
+
+nav li :link {
+  text-decoration: none;
+  background-color: #639465;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav li :link:active {
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
